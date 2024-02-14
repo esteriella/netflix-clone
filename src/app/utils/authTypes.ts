@@ -1,10 +1,10 @@
-import { NextAuthOptions } from 'next-auth';
-import { PrismaAdapter } from '@next-auth/prisma-adapter';
-import { OAuthConfig } from 'next-auth/providers';
-import { EmailConfig } from 'next-auth/providers/email';
+// import { NextAuthOptions } from 'next-auth';
+// import { PrismaAdapter } from '@next-auth/prisma-adapter';
+// import { Provider } from 'next-auth/providers/index';
+// import { EmailConfig } from 'next-auth/providers/email';
 
-export interface MyAuthOptions extends NextAuthOptions {
-  adapter: PrismaAdapter;
-  providers: (OAuthConfig<any> | EmailConfig)[];
-  secret: string | undefined;
-}
+// export interface MyAuthOptions extends NextAuthOptions {
+//  //adapter: PrismaAdapter;
+//  providers: (Provider | EmailConfig)[];
+//  secret: string | undefined;
+// }
